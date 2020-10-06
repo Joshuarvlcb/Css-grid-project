@@ -5,21 +5,14 @@
     grid-gap:5px;
     position: relative;
     align-content: center;
-
-
-
-
-
-
 }
 body{
     width: 1275px;
     border:15px solid gray;
-
 }
 header ul{
     list-style: none;
-    background-color: burlywood;
+    background-color: rgb(153, 103, 114);
     margin-top: 0px;
 
 }
@@ -33,7 +26,7 @@ header ul li a{
     font-weight: bolder;
 }
 p{
-    color: burlywood;
+    color: rgb(153, 103, 114);
     position:absolute;
     bottom:0;
     right:0;
@@ -142,10 +135,6 @@ grid-column:2;
 
 }
 .m{
-
-
 grid-row:8;
 grid-column: 1;
-
-
 }
