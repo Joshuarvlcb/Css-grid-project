@@ -1,280 +1,251 @@
-@media(min-width:400px){
-
-    .container{
+@media(min-width:400px) {
+    .container {
         display: grid;
-        grid-template-rows: repeat(9,auto);
-        grid-template-columns: repeat(5,250px);
-        grid-gap:5px;
+        grid-template-rows: repeat(9, auto);
+        grid-template-columns: repeat(5, 250px);
+        grid-gap: 5px;
         position: relative;
         align-content: center;
     }
-
-
-.container{
-    display: grid;
-    grid-template-rows: repeat(9,auto);
-    grid-template-columns: repeat(5,250px);
-    grid-gap:5px;
-    position: relative;
-    align-content: center;
-}
-body{
-    width: 1275px;
-    border:15px solid gray;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header ul{
-    list-style: none;
-    background-color: burlywood;
-    margin-top: 0px;
-}
-header li{
-    display: inline-block;
-    padding: 10px;
-}
-header ul li a{
-    text-decoration: none;
-    color: gray;
-    font-weight: bolder;
-}
-
-p{
-    color: burlywood;
-    position:absolute;
-    bottom:0;
-    right:0;
-    text-align: right;
-    margin: 5px;
-    font-weight: bolder;
-
-}
-.big{
-    grid-row:1/4;
-    grid-column:1/4;
-}
-.twiter{
-    grid-row:2;
-    grid-column:5;
-}
-.facebook{
-    grid-row:1;
-    grid-column:5;
-}
-.hacker{
-    grid-row:3;
-    grid-column:5;
-}
-.birthday{
-    grid-row:4;
-    grid-column: 1/2;
-}
-.makeup{
-    grid-row:4;
-    grid-column:3;
-}
-.costumes{
-    grid-row:4;
-    grid-column:4;
-}
-.wigs{
-    grid-row: 4;
-    grid-column: 5;
-}
-.musical{
-    grid-row:5/7;
-    grid-column:1;
-}
-.sale{
-    grid-row:5;
-    grid-column:2;
-}
-.candy{
-    grid-row:5;
-    grid-column:4;
-}
-.hats{
-    grid-row: 5;
-    grid-column: 5;
-}
-.props{
-    grid-row:7;
-    grid-column: 1;
-}
-.xmas{
-    grid-row:6/9;
-    grid-column: 2;
-}
-.classic{
-    grid-row:6;
-    grid-column:3;
-}
-.shipping{
-    grid-row:6;
-    grid-column: 5;
-}
-.ghost{
-    grid-row:7;
-    grid-column:3;
-}
-.jason{
-    grid-row:7;
-    grid-column: 4;
-}
-.witches{
-    grid-row:7;
-    grid-column:5;
-}
-.mask{
-    grid-row:8;
-    grid-column:2;
-}
-.m{
-    grid-row:8;
-    grid-column: 1;
+    body {
+        width: 1275px;
+        border: 15px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header ul {
+        list-style: none;
+        background-color: burlywood;
+        margin-top: 0px;
+    }
+    header li {
+        display: inline-block;
+        padding: 10px;
+    }
+    header ul li a {
+        text-decoration: none;
+        color: gray;
+        font-weight: bolder;
+    }
+    p {
+        color: burlywood;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        text-align: right;
+        margin: 5px;
+        font-weight: bolder;
+    }
+    .big {
+        grid-row: 1/4;
+        grid-column: 1/4;
+    }
+    .twiter {
+        grid-row: 2;
+        grid-column: 5;
+    }
+    .facebook {
+        grid-row: 1;
+        grid-column: 5;
+    }
+    .hacker {
+        grid-row: 3;
+        grid-column: 5;
+    }
+    .birthday {
+        grid-row: 4;
+        grid-column: 1/2;
+    }
+    .makeup {
+        grid-row: 4;
+        grid-column: 3;
+    }
+    .costumes {
+        grid-row: 4;
+        grid-column: 4;
+    }
+    .wigs {
+        grid-row: 4;
+        grid-column: 5;
+    }
+    .musical {
+        grid-row: 5/7;
+        grid-column: 1;
+    }
+    .sale {
+        grid-row: 5;
+        grid-column: 2;
+    }
+    .candy {
+        grid-row: 5;
+        grid-column: 4;
+    }
+    .hats {
+        grid-row: 5;
+        grid-column: 5;
+    }
+    .props {
+        grid-row: 7;
+        grid-column: 1;
+    }
+    .xmas {
+        grid-row: 6/9;
+        grid-column: 2;
+    }
+    .classic {
+        grid-row: 6;
+        grid-column: 3;
+    }
+    .shipping {
+        grid-row: 6;
+        grid-column: 5;
+    }
+    .ghost {
+        grid-row: 7;
+        grid-column: 3;
+    }
+    .jason {
+        grid-row: 7;
+        grid-column: 4;
+    }
+    .witches {
+        grid-row: 7;
+        grid-column: 5;
+    }
+    .mask {
+        grid-row: 8;
+        grid-column: 2;
+    }
+    .m {
+        grid-row: 8;
+        grid-column: 1;
+    }
+    footer {
+        display: none;
+    }
 }
 
-
-}
-@media(max-width:400px){
-
-    .container{
+@media(max-width:400px) {
+    .container {
         display: grid;
-        grid-template-rows: repeat(9,auto);
-        grid-template-columns: repeat(5,250px);
-        grid-gap:5px;
+        grid-template-rows: repeat(9, auto);
+        grid-template-columns: repeat(5, 250px);
+        grid-gap: 5px;
         position: relative;
         align-content: center;
     }
-
-
-.container{
-    display: grid;
-    grid-template-rows: repeat(9,auto);
-    grid-template-columns: repeat(5,250px);
-    grid-gap:5px;
-    position: relative;
-    align-content: center;
-}
-body{
-    width: 1275px;
-    border:15px solid gray;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header ul{
-    list-style: none;
-    background-color: burlywood;
-    margin-top: 0px;
-}
-header li{
-    display: inline-block;
-    padding: 10px;
-}
-header ul li a{
-    text-decoration: none;
-    color: gray;
-    font-weight: bolder;
-}
-
-p{
-    color: burlywood;
-    position:absolute;
-    bottom:0;
-    right:0;
-    text-align: right;
-    margin: 5px;
-    font-weight: bolder;
-
-}
-.big{
-    grid-row:1/;
-    grid-column:1/4;
-}
-.twiter{
-    grid-row:3;
-    grid-column:1;
-}
-.facebook{
-    grid-row:2;
-    grid-column:1;
-}
-.hacker{
-    grid-row:3;
-    grid-column:5;
-}
-.birthday{
-    grid-row:4;
-    grid-column: 1/2;
-}
-.makeup{
-    grid-row:4;
-    grid-column:3;
-}
-.costumes{
-    grid-row:4;
-    grid-column:4;
-}
-.wigs{
-    grid-row: 4;
-    grid-column: 5;
-}
-.musical{
-    grid-row:5/7;
-    grid-column:1;
-}
-.sale{
-    grid-row:5;
-    grid-column:2;
-}
-.candy{
-    grid-row:5;
-    grid-column:4;
-}
-.hats{
-    grid-row: 5;
-    grid-column: 5;
-}
-.props{
-    grid-row:7;
-    grid-column: 1;
-}
-.xmas{
-    grid-row:6/9;
-    grid-column: 2;
-}
-.classic{
-    grid-row:6;
-    grid-column:3;
-}
-.shipping{
-    grid-row:6;
-    grid-column: 5;
-}
-.ghost{
-    grid-row:7;
-    grid-column:3;
-}
-.jason{
-    grid-row:7;
-    grid-column: 4;
-}
-.witches{
-    grid-row:7;
-    grid-column:5;
-}
-.mask{
-    grid-row:3;
-    grid-column:3;
-}
-.m{
-    grid-row:3;
-    grid-column:2;
-}
-
-
-
-
+    body {
+        width: 1275px;
+        border: 15px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header ul {
+        list-style: none;
+        background-color: burlywood;
+        margin-top: 0px;
+    }
+    header li {
+        display: inline-block;
+        padding: 10px;
+    }
+    header ul li a {
+        text-decoration: none;
+        color: gray;
+        font-weight: bolder;
+    }
+    p {
+        visibility: hidden;
+    }
+    .big {
+        grid-row: 1;
+        grid-column: 1/4;
+    }
+    .twiter {
+        grid-row: 5;
+        grid-column: 1;
+    }
+    .facebook {
+        grid-row: 4;
+        grid-column: 1;
+    }
+    .hacker {
+        grid-row: 3/6;
+        grid-column: 5;
+    }
+    .birthday {
+        grid-row: 7;
+        grid-column: 1/2;
+    }
+    .makeup {
+        grid-row: 7;
+        grid-column: 3;
+    }
+    .costumes {
+        grid-row: 7;
+        grid-column: 4;
+    }
+    .wigs {
+        grid-row: 7;
+        grid-column: 5;
+    }
+    .musical {
+        grid-row: 8/10;
+        grid-column: 1;
+    }
+    .sale {
+        grid-row: 8;
+        grid-column: 2;
+    }
+    .candy {
+        grid-row: 8;
+        grid-column: 4;
+    }
+    .hats {
+        grid-row: 8;
+        grid-column: 5;
+    }
+    .props {
+        grid-row: 10;
+        grid-column: 1;
+        bottom: 0;
+    }
+    .xmas {
+        grid-row: 9/12;
+        grid-column: 2;
+    }
+    .classic {
+        grid-row: 9;
+        grid-column: 3;
+    }
+    .shipping {
+        grid-row: 9;
+        grid-column: 5;
+    }
+    .ghost {
+        grid-row: 10;
+        grid-column: 3;
+    }
+    .jason {
+        grid-row: 10;
+        grid-column: 4;
+    }
+    .witches {
+        grid-row: 10;
+        grid-column: 5;
+    }
+    .mask {
+        grid-row: 3/6;
+        grid-column: 3;
+    }
+    .m {
+        grid-row: 3/6;
+        grid-column: 2;
+    }
+    footer {
+        color: black;
+        position: absolute;
+        font-weight: bolder;
+        background-color: burlywood;
+    }
 }
